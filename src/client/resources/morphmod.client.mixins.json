@@ -1,0 +1,1 @@
+{ "required": true, "package": "bd.morph.mixin", "compatibilityLevel": "JAVA_21", "client": ["DispatcherMixin"], "injectors": { "defaultRequire": 1 } }
