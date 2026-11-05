@@ -1,0 +1,6 @@
+{
+  "schemaVersion": 1, "id": "morphmod", "version": "${version}", "name": "Morph Mod",
+  "description": "Press Right Shift, pick a mob, become it.", "environment": "*", "mixins": [{"config":"morphmod.client.mixins.json","environment":"client"}],
+  "entrypoints": { "main": ["bd.morph.MorphMod"], "client": ["bd.morph.MorphClient"] },
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "~1.21.11", "java": ">=21", "fabric-api": "*" }
+}
